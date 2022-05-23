@@ -1,11 +1,19 @@
 import PropTypes from "prop-types";
 import FeedbackItem from "./FeedbackItem";
-function FeedbackList({ feedback }) {
-  if (!feedback || feedback.length === 0) return <p>No feedback</p>;
+import Card from "./shared/Card";
+function FeedbackList({ feedback, handleDelete }) {
+  if (!feedback || feedback.length === 0)
+    return (
+      <Card>
+        <p>No feedback</p>
+      </Card>
+    );
   return (
     <div className="feedback-list">
       {feedback.map((item) => {
-        return <FeedbackItem key={item.id} item={item} />;
+        return (
+          <FeedbackItem key={item.id} item={item} handleDelete={handleDelete} />
+        );
       })}
     </div>
   );

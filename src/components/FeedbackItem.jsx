@@ -11,7 +11,7 @@ function FeedbackItem({ item, handleDelete }) {
         }}
         className="close"
       >
-        <FaTimes color="purple" />
+        <FaTimes color="#2f2f2f" />
       </button>
       <div className="text-display">{item.text}</div>
     </Card>

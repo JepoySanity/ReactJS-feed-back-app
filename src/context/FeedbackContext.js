@@ -5,7 +5,7 @@ export const FeedbackContext = createContext();
 
 export const FeedbackProvider = ({ children }) => {
   //loader
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   //feedback state
   const [feedback, setFeedback] = useState([]);
   //edit feedback state

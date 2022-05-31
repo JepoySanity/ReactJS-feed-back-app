@@ -10,10 +10,10 @@ In the project directory, you can run:
 Installs all the dependencies required to run the app.\
 Open your terminal and change directory to the app directory root then run the command
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This will run the start and json-serve command simultaneously
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.

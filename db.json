@@ -1,19 +1,9 @@
 {
   "feedback": [
     {
-      "id": 1,
+      "text": "this is my test applicationasdfasdfasdf",
       "rating": 10,
-      "text": "item 1"
-    },
-    {
-      "id": 2,
-      "rating": 9,
-      "text": "item 2"
-    },
-    {
-      "id": 3,
-      "rating": 4,
-      "text": "item 3"
+      "id": 1
     }
   ]
 }

@@ -18,6 +18,11 @@ This will run the start and json-serve command simultaneously
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `npm run build`
+
+This command will build the app for production deployment
+all files will be built on root directory under `build` folder
+
 ## Live DEMO:
 https://rainbow-naiad-2bdf17.netlify.app/
 

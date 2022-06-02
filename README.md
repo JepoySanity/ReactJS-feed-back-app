@@ -24,12 +24,6 @@ all files will be built on root directory under `build` folder
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## Live DEMO:
-https://rainbow-naiad-2bdf17.netlify.app/
-
-## Hosted on:
-https://www.netlify.com/
-
 ## Screenshot
 ![1653356297336](https://user-images.githubusercontent.com/39158843/169931130-50924648-4052-4dff-9618-b7318bacb080.png)
 
